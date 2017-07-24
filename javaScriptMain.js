@@ -10,7 +10,7 @@ var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
 var rightPressed = false;
 var leftPressed = false;
-var brickRowCount = 50;
+var brickRowCount = 5;
 var brickColumnCount = 5;
 var brickWidth = 100;
 var brickHeight = 30;
@@ -137,4 +137,4 @@ function draw() {
     y += dy;
 }
 
-setInterval(draw, 100);
+setInterval(draw, 20);

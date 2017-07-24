@@ -5,3 +5,7 @@ canvas { background: #eee;
 		        display: black;
                 margin: 0;
 				}
+#myCanvas {
+	height: 50%;
+	width: 70%;
+}
